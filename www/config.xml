@@ -6,10 +6,10 @@
         id        = "mob.app.dev.Storage"
         version   = "1.0.0">
 
-    <name>Storage Test</name>
+    <name>8 Ball</name>
 
     <description>
-        A sample application that demonstrates local storage.
+        A sample application that demonstrates gyroscopic interation.
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
