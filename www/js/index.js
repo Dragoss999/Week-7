@@ -5,8 +5,8 @@ $(document).on("pagecreate","#pageone",function(){
 });            
 
 
-function submitText() {
-	var text = $('#textinput').val();
+function displayText() {
+	var text = $('#random').val();
 	alert(text);
 }
 
@@ -15,5 +15,5 @@ function storeValue(key, value) {
 }
 
 function random(){
-    $("#randomText").text(return !Math.round(Math.random()));
+    return !Math.round(Math.random());
 }
