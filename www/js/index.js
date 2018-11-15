@@ -6,8 +6,8 @@ $(document).on("pagecreate","#pageone",function(){
 
 
 function displayText() {
-	var text = $('#random').val();
-	alert(text);
+	var TrueFalse = random();
+	alert(TrueFalse);
 }
 
 function storeValue(key, value) {
