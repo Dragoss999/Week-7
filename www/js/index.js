@@ -15,7 +15,5 @@ function storeValue(key, value) {
 }
 
 function random(){
-    return !Math.round(Math.random());
+    $("#randomText").text(return !Math.round(Math.random()));
 }
-
-$("#myText").text("Summoners")
